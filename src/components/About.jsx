@@ -22,7 +22,7 @@ const About = () => {
                                         <Heart size={64} className="text-white" />
                                     </div>
                                     <p className="text-sage-700 font-semibold text-lg">Nutricionista Ana Paula Nogueira</p>
-                                    <p className="text-sage-600 text-sm">Certified Nutritionist</p>
+                                    <p className="text-sage-600 text-sm">Nutricionista Certificada</p>
                                 </div>
                             </div>
                         </div>

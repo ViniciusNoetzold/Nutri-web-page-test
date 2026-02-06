@@ -33,7 +33,7 @@ const Hero = () => {
                         className="inline-flex items-center space-x-2 bg-sage-100 text-sage-700 px-4 py-2 rounded-full mb-6"
                     >
                         <Sparkles size={16} />
-                        <span className="text-sm font-medium">Certified Nutritionist & Wellness Expert</span>
+                        <span className="text-sm font-medium">Nutricionista Certificada & Especialista em Bem-Estar</span>
                     </motion.div>
 
                     {/* Main Headline */}
@@ -43,9 +43,9 @@ const Hero = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-800 mb-6 leading-tight"
                     >
-                        Transform Your Life
+                        Transforme sua vida
                         <br />
-                        <span className="text-sage-500">Through Nutrition</span>
+                        <span className="text-sage-500">através da nutrição.</span>
                     </motion.h1>
 
                     {/* Subheadline */}
@@ -55,8 +55,8 @@ const Hero = () => {
                         transition={{ duration: 0.6, delay: 0.4 }}
                         className="text-xl md:text-2xl text-slate-600 mb-10 max-w-2xl mx-auto"
                     >
-                        Evidence-based nutrition plans tailored to your unique goals.
-                        Start your journey to optimal health today.
+                        Planos nutricionais baseados em evidências, personalizados para seus objetivos específicos.
+                        Comece hoje mesmo sua jornada rumo à saúde ideal.
                     </motion.p>
 
                     {/* CTA Buttons */}
@@ -70,14 +70,14 @@ const Hero = () => {
                             onClick={() => scrollToSection('contact')}
                             className="group bg-sage-400 text-white px-8 py-4 rounded-full hover:bg-sage-500 transition-all duration-300 hover:scale-105 font-semibold shadow-lg hover:shadow-xl flex items-center space-x-2"
                         >
-                            <span>Start Your Journey</span>
+                            <span>Comece sua jornada</span>
                             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                         </button>
                         <button
                             onClick={() => scrollToSection('about')}
                             className="bg-transparent border-2 border-sage-400 text-sage-600 px-8 py-4 rounded-full hover:bg-sage-50 transition-all duration-300 hover:scale-105 font-semibold"
                         >
-                            Learn More
+                            Saber mais
                         </button>
                     </motion.div>
 
@@ -90,15 +90,15 @@ const Hero = () => {
                     >
                         <div className="flex items-center space-x-2">
                             <div className="w-2 h-2 bg-sage-400 rounded-full"></div>
-                            <span className="text-sm font-medium">500+ Happy Clients</span>
+                            <span className="text-sm font-medium">Mais de 500 clientes satisfeitos</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <div className="w-2 h-2 bg-sage-400 rounded-full"></div>
-                            <span className="text-sm font-medium">15+ Years Experience</span>
+                            <span className="text-sm font-medium">Mais de 15 anos de experiência</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <div className="w-2 h-2 bg-sage-400 rounded-full"></div>
-                            <span className="text-sm font-medium">Board Certified</span>
+                            <span className="text-sm font-medium">Certificado pelo Conselho</span>
                         </div>
                     </motion.div>
                 </div>

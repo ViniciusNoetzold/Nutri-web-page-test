@@ -23,12 +23,12 @@ const Header = () => {
     };
 
     const navLinks = [
-        { name: 'Home', id: 'hero' },
-        { name: 'Methodology', id: 'about' },
-        { name: 'Services', id: 'services' },
-        { name: 'Calculator', id: 'calculator' },
-        { name: 'Testimonials', id: 'testimonials' },
-        { name: 'Contact', id: 'contact' },
+        { name: 'Lar', id: 'hero' },
+        { name: 'Metodologia', id: 'about' },
+        { name: 'Serviços', id: 'services' },
+        { name: 'Calculadora', id: 'calculator' },
+        { name: 'Depoimentos', id: 'testimonials' },
+        { name: 'Contato', id: 'contact' },
     ];
 
     return (
@@ -64,7 +64,7 @@ const Header = () => {
                         onClick={() => scrollToSection('contact')}
                         className="hidden md:block bg-sage-400 text-white px-6 py-2.5 rounded-full hover:bg-sage-500 transition-all duration-300 hover:scale-105 font-medium shadow-sm"
                     >
-                        Book Consultation
+                        Agendar consulta
                     </button>
 
                     {/* Mobile Menu Button */}
@@ -98,7 +98,7 @@ const Header = () => {
                                 onClick={() => scrollToSection('contact')}
                                 className="bg-sage-400 text-white px-6 py-2.5 rounded-full hover:bg-sage-500 transition-colors duration-300 font-medium text-center"
                             >
-                                Book Consultation
+                                Agendar consulta
                             </button>
                         </nav>
                     </motion.div>

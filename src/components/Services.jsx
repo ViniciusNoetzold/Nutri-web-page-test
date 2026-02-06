@@ -6,26 +6,26 @@ const Services = () => {
     const services = [
         {
             icon: Scale,
-            title: 'Weight Management',
-            description: 'Achieve your ideal weight through sustainable nutrition strategies and personalized meal planning.',
+            title: 'Controle de Peso',
+            description: 'Alcance seu peso ideal através de estratégias nutricionais sustentáveis e planejamento alimentar personalizado.',
             color: 'from-sage-400 to-sage-500',
         },
         {
             icon: Dumbbell,
-            title: 'Sports Nutrition',
-            description: 'Optimize performance and recovery with targeted nutrition for athletes and active individuals.',
+            title: 'Nutrição Esportiva',
+            description: 'Otimize desempenho e recuperação com nutrição direcionada para atletas e indivíduos ativos.',
             color: 'from-slate-400 to-slate-500',
         },
         {
             icon: Activity,
-            title: 'Gut Health',
-            description: 'Restore digestive balance and improve overall wellness through gut-focused nutrition protocols.',
+            title: 'Saúde Intestinal',
+            description: 'Restaure o equilíbrio digestivo e melhore o bem-estar geral através de protocolos nutricionais focados no intestino.',
             color: 'from-sage-500 to-sage-600',
         },
         {
             icon: Heart,
-            title: 'Hormonal Balance',
-            description: 'Support hormonal health naturally through nutrition and lifestyle modifications.',
+            title: 'Equilíbrio Hormonal',
+            description: 'Apoie a saúde hormonal naturalmente através de nutrição e modificações no estilo de vida.',
             color: 'from-slate-500 to-slate-600',
         },
     ];
@@ -42,14 +42,14 @@ const Services = () => {
                     className="text-center max-w-3xl mx-auto mb-16"
                 >
                     <div className="inline-block bg-sage-100 text-sage-700 px-4 py-2 rounded-full mb-4">
-                        <span className="text-sm font-medium">Our Services</span>
+                        <span className="text-sm font-medium">Nossos Serviços</span>
                     </div>
                     <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                        Specialized Nutrition{' '}
-                        <span className="text-sage-500">Programs</span>
+                        Programas Nutricionais{' '}
+                        <span className="text-sage-500">Especializados</span>
                     </h2>
                     <p className="text-lg text-slate-600">
-                        Comprehensive nutrition services designed to address your specific health goals
+                        Serviços nutricionais abrangentes projetados para atender seus objetivos específicos de saúde
                     </p>
                 </motion.div>
 
@@ -84,7 +84,7 @@ const Services = () => {
                                 {/* Hover Indicator */}
                                 <div className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <span className="text-sage-500 font-medium text-sm inline-flex items-center">
-                                        Learn more
+                                        Saber mais
                                         <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                         </svg>

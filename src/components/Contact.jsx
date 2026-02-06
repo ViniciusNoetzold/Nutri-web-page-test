@@ -170,13 +170,13 @@ const Contact = () => {
                     className="text-center max-w-3xl mx-auto mb-16"
                 >
                     <div className="inline-block bg-sage-100 text-sage-700 px-4 py-2 rounded-full mb-4">
-                        <span className="text-sm font-medium">Get In Touch</span>
+                        <span className="text-sm font-medium">Entre em Contato</span>
                     </div>
                     <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                        Start Your <span className="text-sage-500">Journey Today</span>
+                        Comece sua <span className="text-sage-500">Jornada Hoje</span>
                     </h2>
                     <p className="text-lg text-slate-600">
-                        Ready to transform your health? Let's connect and create your personalized nutrition plan
+                        Pronto para transformar sua saúde? Vamos nos conectar e criar seu plano nutricional personalizado
                     </p>
                 </motion.div>
 
