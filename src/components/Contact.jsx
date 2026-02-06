@@ -17,13 +17,13 @@ const Contact = () => {
     const [errorMessage, setErrorMessage] = useState('');
 
     const healthGoalOptions = [
-        { value: '', label: 'Select your main health goal...' },
-        { value: 'weight-management', label: 'Weight Management' },
-        { value: 'sports-nutrition', label: 'Sports Nutrition' },
-        { value: 'gut-health', label: 'Gut Health' },
-        { value: 'hormonal-balance', label: 'Hormonal Balance' },
-        { value: 'general-wellness', label: 'General Wellness' },
-        { value: 'other', label: 'Other' }
+        { value: '', label: 'Selecione seu principal objetivo de saúde...' },
+        { value: 'weight-management', label: 'Controle de Peso' },
+        { value: 'sports-nutrition', label: 'Nutrição Esportiva' },
+        { value: 'gut-health', label: 'Saúde Intestinal' },
+        { value: 'hormonal-balance', label: 'Equilíbrio Hormonal' },
+        { value: 'general-wellness', label: 'Bem-Estar Geral' },
+        { value: 'other', label: 'Outro' }
     ];
 
     const handleChange = (e) => {
@@ -224,7 +224,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-slate-800 mb-1">Email Us</h4>
-                                    <p className="text-slate-600">hello@drsarahgreen.com<br />We'll respond within 24hrs</p>
+                                    <p className="text-slate-600">contato@anapaulanogueira.com<br />Responderemos em até 24 horas</p>
                                 </div>
                             </div>
                         </div>
@@ -276,8 +276,8 @@ const Contact = () => {
                                         </div>
                                         <p className="text-sm text-slate-500">
                                             Didn't receive it? Check your spam folder or contact us at{' '}
-                                            <a href="mailto:hello@drsarahgreen.com" className="text-sage-600 hover:text-sage-700 font-medium">
-                                                hello@drsarahgreen.com
+                                            <a href="mailto:contato@anapaulanogueira.com" className="text-sage-600 hover:text-sage-700 font-medium">
+                                                contato@anapaulanogueira.com
                                             </a>
                                         </p>
                                     </motion.div>

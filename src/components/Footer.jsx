@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Twitter, Linkedin, Heart } from 'lucide-react';
 
 const Footer = () => {
@@ -24,45 +25,61 @@ const Footer = () => {
                             <span className="text-xl font-bold">Nutricionista Ana Paula Nogueira</span>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed">
-                            Transforming lives through evidence-based nutrition and personalized wellness plans.
+                            Transformando vidas através de nutrição baseada em evidências e planos de bem-estar personalizados.
                         </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+                        <h3 className="font-semibold text-lg mb-4">Links Rápidos</h3>
                         <ul className="space-y-2">
                             <li>
-                                <button onClick={() => scrollToSection('hero')} className="text-slate-400 hover:text-sage-400 transition-colors">
-                                    Home
-                                </button>
+                                <Link to="/" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Início
+                                </Link>
                             </li>
                             <li>
-                                <button onClick={() => scrollToSection('about')} className="text-slate-400 hover:text-sage-400 transition-colors">
-                                    Methodology
-                                </button>
+                                <Link to="/#about" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Metodologia
+                                </Link>
                             </li>
                             <li>
-                                <button onClick={() => scrollToSection('services')} className="text-slate-400 hover:text-sage-400 transition-colors">
-                                    Services
-                                </button>
+                                <Link to="/#services" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Serviços
+                                </Link>
                             </li>
                             <li>
-                                <button onClick={() => scrollToSection('testimonials')} className="text-slate-400 hover:text-sage-400 transition-colors">
-                                    Testimonials
-                                </button>
+                                <Link to="/#testimonials" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Depoimentos
+                                </Link>
                             </li>
                         </ul>
                     </div>
 
                     {/* Services */}
                     <div>
-                        <h3 className="font-semibold text-lg mb-4">Services</h3>
-                        <ul className="space-y-2 text-sm text-slate-400">
-                            <li>Weight Management</li>
-                            <li>Sports Nutrition</li>
-                            <li>Gut Health</li>
-                            <li>Hormonal Balance</li>
+                        <h3 className="font-semibold text-lg mb-4">Serviços</h3>
+                        <ul className="space-y-2 text-sm">
+                            <li>
+                                <Link to="/servicos/controle-de-peso" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Controle de Peso
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/servicos/nutricao-esportiva" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Nutrição Esportiva
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/servicos/saude-intestinal" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Saúde Intestinal
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/servicos/equilibrio-hormonal" className="text-slate-400 hover:text-sage-400 transition-colors">
+                                    Equilíbrio Hormonal
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
@@ -73,7 +90,7 @@ const Footer = () => {
                             <li>123 Wellness Avenue</li>
                             <li>San Francisco, CA 94102</li>
                             <li>(555) 123-4567</li>
-                            <li>hello@drsarahgreen.com</li>
+                            <li>contato@anapaulanogueira.com</li>
                         </ul>
                     </div>
                 </div>

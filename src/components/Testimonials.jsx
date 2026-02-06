@@ -6,30 +6,30 @@ const Testimonials = () => {
     const testimonials = [
         {
             name: 'Jessica Thompson',
-            role: 'Lost 25 lbs',
+            role: 'Perdeu 12kg',
             rating: 5,
-            text: 'Dr. Sarah transformed my relationship with food. Her personalized approach made all the difference. I\'ve never felt better!',
+            text: 'Ana Paula transformou minha relação com a comida. Sua abordagem personalizada fez toda a diferença. Nunca me senti tão bem!',
             image: '👩'
         },
         {
             name: 'Michael Chen',
-            role: 'Marathon Runner',
+            role: 'Maratonista',
             rating: 5,
-            text: 'The sports nutrition program helped me achieve my best race times. Sarah\'s expertise is unmatched.',
+            text: 'O programa de nutrição esportiva me ajudou a alcançar meus melhores tempos de corrida. A expertise da Ana Paula é incomparável.',
             image: '👨'
         },
         {
             name: 'Emily Rodriguez',
-            role: 'Gut Health Client',
+            role: 'Cliente de Saúde Intestinal',
             rating: 5,
-            text: 'After years of digestive issues, I finally found relief through Sarah\'s gut health program. Life-changing!',
+            text: 'Após anos de problemas digestivos, finalmente encontrei alívio através do programa de saúde intestinal da Ana Paula. Mudou minha vida!',
             image: '👩'
         },
         {
             name: 'David Wilson',
-            role: 'Weight Loss Journey',
+            role: 'Jornada de Perda de Peso',
             rating: 5,
-            text: 'Professional, knowledgeable, and genuinely caring. The support I received made my journey sustainable and enjoyable.',
+            text: 'Profissional, conhecedora e genuinamente cuidadosa. O suporte que recebi tornou minha jornada sustentável e agradável.',
             image: '👨'
         },
     ];
@@ -46,13 +46,13 @@ const Testimonials = () => {
                     className="text-center max-w-3xl mx-auto mb-16"
                 >
                     <div className="inline-block bg-sage-100 text-sage-700 px-4 py-2 rounded-full mb-4">
-                        <span className="text-sm font-medium">Testimonials</span>
+                        <span className="text-sm font-medium">Depoimentos</span>
                     </div>
                     <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                        Client <span className="text-sage-500">Success Stories</span>
+                        Histórias de <span className="text-sage-500">Sucesso</span>
                     </h2>
                     <p className="text-lg text-slate-600">
-                        Real results from real people who transformed their health
+                        Resultados reais de pessoas reais que transformaram sua saúde
                     </p>
                 </motion.div>
 
