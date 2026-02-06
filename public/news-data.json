@@ -1,0 +1,49 @@
+{
+    "lastUpdated": "2026-02-06T12:00:00Z",
+    "articles": [
+        {
+            "headline": "Mediterranean Diet Shows Promising Results in Longevity Studies",
+            "summary": "A comprehensive 15-year longitudinal study published in The Lancet demonstrates that consistent adherence to a Mediterranean dietary pattern is associated with a 20% reduction in all-cause mortality and significant improvements in cardiovascular health markers among participants aged 40-75.",
+            "source": "The Lancet",
+            "date": "2026-02-06",
+            "verified": true,
+            "url": "https://www.thelancet.com/journals/lancet/article/example",
+            "verificationScore": 95,
+            "keywords": [
+                "mediterranean diet",
+                "longevity",
+                "cardiovascular health"
+            ]
+        },
+        {
+            "headline": "Plant-Based Proteins Reduce Type 2 Diabetes Risk by 30%",
+            "summary": "Groundbreaking research from Harvard Medical School reveals that replacing animal proteins with plant-based alternatives may reduce the risk of developing type 2 diabetes by up to 30%, while also improving overall metabolic health markers and reducing inflammation.",
+            "source": "Harvard Health",
+            "date": "2026-02-05",
+            "verified": true,
+            "url": "https://www.health.harvard.edu/nutrition/plant-proteins-diabetes",
+            "verificationScore": 92,
+            "keywords": [
+                "plant-based",
+                "diabetes",
+                "protein",
+                "metabolic health"
+            ]
+        },
+        {
+            "headline": "Gut Microbiome Diversity Linked to Successful Weight Management",
+            "summary": "New findings in Nature Medicine indicate that individuals with more diverse gut bacteria populations show 40% better weight loss outcomes and significantly improved long-term weight maintenance compared to those with limited microbiome diversity.",
+            "source": "Nature Medicine",
+            "date": "2026-02-04",
+            "verified": true,
+            "url": "https://www.nature.com/articles/gut-microbiome-weight",
+            "verificationScore": 93,
+            "keywords": [
+                "gut health",
+                "microbiome",
+                "weight loss",
+                "probiotics"
+            ]
+        }
+    ]
+}
